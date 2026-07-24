@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <title>Nebula Siege</title>
 <style>
   :root{
@@ -61,6 +66,8 @@
   .aliens-row canvas{image-rendering:pixelated;}
   .aliens-row .pts{display:block; margin-top:.5rem; font-size:.68rem; letter-spacing:.18em; color:var(--dim);}
 </style>
+</head>
+<body>
 
 <div id="stage">
   <canvas id="game" aria-label="Nebula Siege - arcade shooter"></canvas>
@@ -1324,3 +1331,5 @@ function loop(now){
 }
 requestAnimationFrame(loop);
 </script>
+</body>
+</html>
